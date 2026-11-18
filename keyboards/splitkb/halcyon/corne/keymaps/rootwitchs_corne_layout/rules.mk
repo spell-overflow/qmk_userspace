@@ -5,7 +5,8 @@ USER_NAME := halcyon_modules
 SRC += halcyon_keys.c
 
 # Display module
-HLC_TFT_DISPLAY = yes
+#HLC_TFT_DISPLAY = yes
 
 # Cirque trackpad module
-# HLC_CIRQUE_TRACKPAD = yes
+HLC_CIRQUE_TRACKPAD = yes
+POINTING_DEVICE_DRIVER = cirque_pinnacle_i2c
